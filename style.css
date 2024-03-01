@@ -1,0 +1,63 @@
+:root {
+  --White: hsl(0, 0%, 100%);
+  --Grey: hsl(0, 0%, 20%);
+  --Dark-Grey: hsl(0, 0%, 12%);
+  --Off-Black: hsl(0, 0%, 8%);
+  --Green: hsl(75, 94%, 57%);
+}
+* {
+  font-family: "Inter", sans-serif;
+  font-optical-sizing: auto;
+  font-weight: 400;
+  font-weight: 600;
+  font-weight: 700;
+  font-style: normal;
+  font-variation-settings: "slnt" 0;
+}
+body {
+  background-color: var(--Off-Black);
+}
+.conteiner {
+  text-align: center;
+  background-color: var(--Dark-Grey);
+  width: 237px;
+  margin: 100px auto;
+  color: white;
+  border-radius: 8px;
+  padding: 15px;
+}
+.conteiner img {
+  width: 60px;
+  margin: 12px 0 0;
+  border-radius: 50%;
+}
+.conteiner h3 {
+  font-weight: normal;
+  margin-top: 15px;
+  font-size: 17px;
+}
+.conteiner h2 {
+  font-size: 10px;
+  margin-top: -10px;
+  color: var(--Green);
+  font-weight: normal;
+}
+.conteiner h1 {
+  font-size: 10px;
+  font-weight: normal;
+  margin-top: 20px;
+}
+.conteiner p {
+  font-size: 10px;
+  background-color: var(--Grey);
+  width: 200px;
+  margin: 14px auto;
+  padding: 10px;
+  border-radius: 5px;
+  cursor: pointer;
+  transition: 0.5s;
+}
+.conteiner p:hover {
+  background-color: var(--Green);
+  color: var(--Dark-Grey);
+}
